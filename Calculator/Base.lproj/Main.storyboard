@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GLa-N0-uqX">
-                                <rect key="frame" x="12" y="182" width="351" height="30"/>
+                                <rect key="frame" x="12" y="70" width="351" height="30"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -174,7 +174,7 @@
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f1E-Ad-1oC">
                                 <rect key="frame" x="12" y="262" width="351" height="30"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                                <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="=">
                                     <color key="titleColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -192,8 +192,8 @@
                             <constraint firstItem="GLa-N0-uqX" firstAttribute="leading" secondItem="f1E-Ad-1oC" secondAttribute="leading" id="slX-gv-uPc"/>
                             <constraint firstItem="SjV-Nk-PSr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="ufU-kW-71R"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SjV-Nk-PSr" secondAttribute="bottom" constant="12" id="wZD-RD-3in"/>
+                            <constraint firstItem="GLa-N0-uqX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="wax-oH-tu3"/>
                             <constraint firstItem="SjV-Nk-PSr" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="wqk-a2-btl"/>
-                            <constraint firstItem="f1E-Ad-1oC" firstAttribute="top" secondItem="GLa-N0-uqX" secondAttribute="bottom" constant="50" id="wu2-0J-huf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
